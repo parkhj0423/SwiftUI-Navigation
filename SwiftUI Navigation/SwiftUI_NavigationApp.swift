@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import SwiftUINavigation
 
 @main
 struct SwiftUI_NavigationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FeatureView()
         }
     }
 }
